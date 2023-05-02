@@ -1,0 +1,15 @@
+.pagination {
+  position: fixed;
+  bottom: 1rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  z-index: 3;
+  background-color: rgba(247, 244, 244, 0.833);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.nextprevious {
+  font-size: 10;
+  cursor: pointer;
+}

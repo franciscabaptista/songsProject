@@ -1,0 +1,83 @@
+.musicaLista {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  transition: all 0.5s linear;
+}
+
+.musicaCard {
+  position: flex;
+  display: flex;
+  flex-direction: column;
+  background-color: #dedede;
+  margin: 1 rem;
+  flex: 2 0 25 rem;
+  max-width: 43rem;
+}
+
+.musicaCard:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.icons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  color: #dedede;
+  border: #343434;
+  size: 14px;
+}
+
+.conteudo {
+  color: #343434;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  overflow: hidden;
+  aspect-ratio: 2/1;
+}
+
+.musicaNome {
+  margin-top: 1rem;
+  font-size: 12px;
+  text-align: center;
+}
+
+.musicaArtista {
+  font-size: 10px;
+  text-align: center;
+}
+
+.botaoPreco {
+  display: flex;
+  align-items: center;
+  background-color: #dedede;
+  font-size: 13px;
+  cursor: pointer;
+  border-color: #786f6f;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: #786f6f;
+}
+
+.botaoPreco:hover {
+  transition: 0.3s;
+  background-color: #786f6f6c;
+}
+
+.iconsBotao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

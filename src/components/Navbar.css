@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #786f6f;
+  padding: 0.5rem 1rem;
+}
+
+.nomeloja {
+  color: #dedede;
+}
+
+.iconsNavbar {
+  gap: 5px;
+  color: #dedede;
+  padding: 5px 5px;
+  border-radius: 1rem;
+  font-size: 20px;
+  background-color: #786f6f;
+  cursor: pointer;
+  border: none;
+}
+
+.iconsNavbar:hover {
+  transition: 0.3s;
+  color: #dedede6a;
+}
